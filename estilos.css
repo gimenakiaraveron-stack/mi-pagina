@@ -16,4 +16,28 @@ body{
 }
 .texto{
     margin-top:-10ox;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    display: inline-block;
+    margin: top 20px;
+}
+body{
+    font-size: 18px;
+    font-weight: bold;
+}
+p{
+    font-size:20px ;
+    font-weight:bold ;
+}
+.contenedor{
+    background-image: url("img/fondo.png");
+    background-size: cover;
+    background-position: center;
+    min-width: 100vh;
+}
+h1 {
+    background-color:white;
+    padding:10px;
+    display:inline-block;
 }
