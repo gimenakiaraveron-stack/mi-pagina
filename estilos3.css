@@ -32,3 +32,11 @@ img{
     height:250px;
     object-fit:cover;
 }
+h1,h2,h3{
+    color:aqua;
+}
+footer a{
+    background-color: black;
+    color:whte;
+    padding:20px;
+}
