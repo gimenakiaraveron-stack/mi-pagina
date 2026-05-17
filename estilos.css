@@ -1,43 +1,72 @@
-html,body{
+*{
     margin:0;
-    width: 100%;
-    height: 100%;
+    padding:0;
+    box-sizing: border-box;
 }
 body{
-    background-image:url("img/fondo.png") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image:url("img/fondo.png");
+    background-size:cove;
+    font-family:Arial, sans-serif;
 }
 .contenedor{
+    max-width: 1200px;
+    margin:auto;
+    background-color:rgba(0,0,0,0.8);
+    padding: 2rem;
+}
+header{
+    text-align: center;
+    margin-bottom:2rem;
+}
+h1, h2, h3{
+    font-family: "obirtron",sans-serif;
+    margin-bottom:1rem;
+    color:white;
+
+}
+nav{
+    margin-bottom: 2rem;
+}
+nav ul{
     display:flex;
-    align-items: flex-start;
-    gap:30px;
+    justify-content: center;
+    gap:2rem;
+    list-style:none;
+    color:white;
 }
-.texto{
-    margin-top:-10ox;
-    background-color: white;
-    color:black;
-    padding: 15px;
-    display: inline-block;
-    margin: top 20px;
+nav a {
+    text-decoration:none;
+    color:white;
+    background-color: black;
+    padding: 0.8rem 1.2rem;
+    border-radius:10px;
+    transition: 0.3s;
 }
-body{
-    font-size: 18px;
-    font-weight: bold;
+nav a:hover{
+    background-color: deeppink;
+}
+
+section{
+    margin-bottom: 3rem;
 }
 p{
-    font-size:20px ;
-    font-weight:bold ;
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    color:white;
+
 }
-.contenedor{
-    background-image: url("img/fondo.png");
-    background-size: cover;
-    background-position: center;
-    min-width: 100vh;
+ul li{
+    margin-left: 2rem;
+    color:white;
 }
-h1 {
-    background-color:white;
-    padding:10px;
-    display:inline-block;
+.imagen{
+    width: 100%;
+    max-width:500px;
+    display:block;
+    margin:1rem auto;
+}
+footer{
+    text-align: center;
+    border-top:1px solid white;
+    padding-top:1rem;
 }
