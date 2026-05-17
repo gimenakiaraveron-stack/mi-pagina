@@ -2,11 +2,11 @@ body {
 background-image: url("img/fondo.png");
 }
 .contenedor-texto{
-    background-color: aqua;
+    background-color:rgba(0,0,0,0.6);
     width:70%;
     margin:40px auto;
     padding:30px;
-    color:black;
+    color:white;
     text-align: center;
 
 }
