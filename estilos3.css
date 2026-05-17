@@ -1,0 +1,12 @@
+body {
+background-image: url("img/fondo.png");
+}
+.contenedor-texto{
+    background-color: aqua;
+    width:70%;
+    margin:40px auto;
+    padding:30px;
+    color:black;
+    text-align: center;
+
+}
