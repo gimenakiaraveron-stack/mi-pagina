@@ -4,6 +4,25 @@ body{
 .banner{
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    object-position:top ;
+    object-fit:cover ;
+    object-position: top;
 }
+    .caja{
+        background-color: white;
+        color:black;
+        width:80%;
+        padding:15px;
+        margin:20px auto;
+        border-radius: 5px;
+        text-align: justify;
+    }
+    .parrafo{
+        background-color: aliceblue;
+        color:black;
+        width: 60%;
+        padding:15px;
+        border-radius:5px;
+        margin:20PX;
+        border-radius:5px;
+        line-height: 1.5;
+    }
