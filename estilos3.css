@@ -10,3 +10,13 @@ background-image: url("img/fondo.png");
     text-align: center;
 
 }
+.imagenes{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.imagenes img {
+    width: 150px;
+    height:auto;
+}
