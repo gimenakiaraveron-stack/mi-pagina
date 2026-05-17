@@ -15,8 +15,20 @@ background-image: url("img/fondo.png");
     justify-content:space-between;
     align-items: flex-start;
     margin-top: 10px;
+
 }
-.imagenes img {
-    width: 150px;
-    height:auto;
+
+img{
+    width: 300px !important;
+}
+img:nth-child(2){
+    width: 350px;
+}
+img{
+    border:5px solid white;
+}
+.imagen{
+    width: 350px;
+    height:250px;
+    object-fit:cover;
 }
